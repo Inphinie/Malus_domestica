@@ -1,5 +1,5 @@
-<div style="text-align: center;">
- 
+<div align="center">
+
 # 🍎⚛️ Analyse Comparative: Génome de *Malus domestica* 
 
 > **"La nature a déjà résolu les problèmes que l'informatique tente de résoudre."**
@@ -9,7 +9,6 @@
 [![Security](https://img.shields.io/badge/Security-S_Locus_AIS-red?style=for-the-badge&logo=security)](./security/)
 
  </div>
----
 
 ## 1. 📐 Le Nombre d'Or (φ ≈ 1.618) - L'Architecture Universelle
 
