@@ -388,55 +388,8 @@ def project_to_e8_lattice(vector_496d):
 
 ---
 
-## 8. 🌀 Tzolk'in (260) et Cycles Génomiques
 
-### Protocole Tzolk'in de Lichen
-- **Cycle de 260 jours**: 13 × 20 (trecena × veintena)
-- **Factorisation**: 260 = 2² × 5 × 13
-- **Cryptographie OTP**: synchronisation astronomique
-- **TzBit**: unité quantique 5-niveaux (ququint)
-
-### Cycles Biologiques de la Pomme
-- **Gestation humaine**: ~9 mois ≈ 260 jours (synchronisation Tzolk'in!)
-- **Cycles lunaires**: 9 mois lunaires
-- **Floraison/Fructification**: cycles annuels
-
-### 💡 Application: Horodatage Génomique
-```python
-def apple_genome_timestamp_tzolkin(sequencing_date):
-    """
-    Utiliser le calendrier Tzolk'in pour horodatage génomique
-    """
-    # Jour 0 Tzolk'in = référence astronomique universelle
-    tzolkin_epoch = datetime(2000, 1, 1)  # Exemple
-    
-    delta = sequencing_date - tzolkin_epoch
-    tzolkin_day = delta.days % 260
-    
-    trecena = (tzolkin_day % 13) + 1  # 1-13
-    veintena = (tzolkin_day % 20) + 1  # 1-20
-    
-    return {
-        'tzolkin_day': tzolkin_day,
-        'trecena': trecena,
-        'veintena': veintena,
-        'sync_key': f"{trecena}-{veintena}",
-        'otp_seed': generate_otp_from_tzolkin(tzolkin_day)
-    }
-
-def generate_otp_from_tzolkin(day):
-    """
-    Générer une clé OTP à partir de la position Tzolk'in
-    """
-    import hashlib
-    # La position astronomique est connue de tous
-    # → pas besoin d'échange de clés!
-    return hashlib.sha256(str(day).encode()).digest()
-```
-
----
-
-## 9. 💎 Synthèse: Le Génome de la Pomme comme Template pour l'IA
+## 8. 💎 Synthèse: Le Génome de la Pomme comme Template pour l'IA
 
 ### Principes Extraits
 | Principe Biologique | Implémentation Lichen | Bénéfice |
@@ -545,7 +498,7 @@ fc496_genome = bridge.compress_to_fc496()
 
 print("🍎 Génome de pomme → Architecture Lichen: SUCCÈS!")
 ```
-## 🌿 7. BIOLOGICAL VALIDATION: MALUS DOMESTICA
+## 🌿 10. BIOLOGICAL VALIDATION: MALUS DOMESTICA
 
 L'architecture Lichen n'est pas théorique. Elle est observée dans la nature.
 * **ADN & $\Phi$ :** La double hélice respecte le ratio 1.618, validant le partitionnement FC-496.
