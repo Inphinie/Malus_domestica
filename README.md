@@ -1,4 +1,4 @@
-<div style="display: flex; justify-content: center; align-items: center;">
+<div style="text-align: center;">
  
 # 🍎⚛️ Analyse Comparative: Génome de *Malus domestica* 
 
