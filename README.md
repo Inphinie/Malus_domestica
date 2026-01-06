@@ -1,8 +1,5 @@
-<div align="center">
-
 # 🍎⚛️ Analyse Comparative: Génome de *Malus domestica* 
 
- </div>
 
 > **"La nature a déjà résolu les problèmes que l'informatique tente de résoudre."**
 
