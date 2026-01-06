@@ -2,13 +2,15 @@
 
 # 🍎⚛️ Analyse Comparative: Génome de *Malus domestica* 
 
+ </div>
+
 > **"La nature a déjà résolu les problèmes que l'informatique tente de résoudre."**
 
 [![Bio-Mimicry](https://img.shields.io/badge/Model-Malus_Domestica-green?style=for-the-badge&logo=leaf)](https://github.com/ton-user/bio-bridge)
 [![Math](https://img.shields.io/badge/Constant-Phi_1.618-gold?style=for-the-badge&logo=wolframmathematica)](./maths/)
 [![Security](https://img.shields.io/badge/Security-S_Locus_AIS-red?style=for-the-badge&logo=security)](./security/)
 
- </div>
+---
 
 ## 1. 📐 Le Nombre d'Or (φ ≈ 1.618) - L'Architecture Universelle
 
