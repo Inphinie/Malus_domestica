@@ -498,7 +498,7 @@ fc496_genome = bridge.compress_to_fc496()
 
 print("🍎 Génome de pomme → Architecture Lichen: SUCCÈS!")
 ```
-## 🌿 10. BIOLOGICAL VALIDATION: MALUS DOMESTICA
+## 🌿 9. BIOLOGICAL VALIDATION: MALUS DOMESTICA
 
 L'architecture Lichen n'est pas théorique. Elle est observée dans la nature.
 * **ADN & $\Phi$ :** La double hélice respecte le ratio 1.618, validant le partitionnement FC-496.
